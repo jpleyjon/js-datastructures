@@ -1,0 +1,31 @@
+{
+  "name": "js-datastructures",
+  "version": "1.0.0",
+  "description": "Data Structures implementation in Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha",
+    "lint": "eslint . --fix",
+    "format": "prettier --write **/*.{js,json}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpleyjon/js-datastructures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpleyjon/js-datastructures/issues"
+  },
+  "homepage": "https://github.com/jpleyjon/js-datastructures#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-mocha": "^10.1.0",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.1"
+  }
+}
