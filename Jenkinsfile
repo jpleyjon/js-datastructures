@@ -6,8 +6,10 @@ pipeline {
         checkout scm
       }
     }
-    stage('Test') {
+    stage('Unit Tests') {
       steps {
+        sh 'chmod +x ./do'
+        sh 'chmod 755 ./do'
         sh './do test'
       }
     }
